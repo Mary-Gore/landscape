@@ -1,0 +1,253 @@
+{
+  "db": [
+    {
+      "gallery": [
+        {
+          "src": "img/imgRandy-fath.jpg",
+          "alt": "img: night house"
+        },
+        {
+          "src": "img/imgToa-heftiba.jpg",
+          "alt": "img: yard"
+        },
+        {
+          "src": "img/imgHomeGarden.jpg",
+          "alt": "img: home garden"
+        },
+        {
+          "src": "img/imgSmallHouse.jpg",
+          "alt": "img: small house"
+        },
+        {
+          "src": "img/imgCentralGarden.jpg",
+          "alt": "img: central garden"
+        },
+        {
+          "src": "img/imgBridge.jpg",
+          "alt": "img: bridge"
+        },
+        {
+          "src": "img/imgBushes.jpg",
+          "alt": "img: bushes"
+        },
+        {
+          "src": "img/imgAutumnalGarden.jpg",
+          "alt": "img: autumnal garden"
+        },
+        {
+          "src": "img/imgHouse.jpg",
+          "alt": "img: white house"
+        },
+        {
+          "src": "img/imgChair.jpg",
+          "alt": "img: chair"
+        },
+        {
+          "src": "img/imgSunnyGarden.jpg",
+          "alt": "img: sunny garden"
+        },
+        {
+          "src": "img/imgTable.jpg",
+          "alt": "img: table"
+        },
+        {
+          "src": "img/imgPathwayGarden.jpg",
+          "alt": "img: pathway"
+        },
+        {
+          "src": "img/imgTulips.jpg",
+          "alt": "img: tulips"
+        },
+        {
+          "src": "img/imgGardenFlowers.jpg",
+          "alt": "img: garden flowers"
+        }
+      ]
+    },
+    {
+      "cards": [
+        {
+          "img": "img/imgLantern.jpg",
+          "alt": "img: lantern",
+          "title": "Освещение участка",
+          "subtitle": "Организация системы освещения в&nbsp;соответствии со&nbsp;стилем сада"
+        },
+        {
+          "img": "img/imgGreen.jpg",
+          "alt": "img: green",
+          "title": "Озеленение участка",
+          "subtitle": "Важный элемент декорации и&nbsp;заключительная часть работ"
+        },
+        {
+          "img": "img/imgPathway.jpg",
+          "alt": "img: pathway",
+          "title": "Мощение дорожек",
+          "subtitle": "Определение нужного типа дорожки с&nbsp;учетом ее функции"
+        },
+        {
+          "img": "img/imgFountain.jpg",
+          "alt": "img: fountain",
+          "title": "Водоемы и &nbsp;фонтаны",
+          "subtitle": "Подбор лучшего места и&nbsp;формы в&nbsp;подходящем стиле"
+        },
+        {
+          "img": "img/imgGarden.jpg",
+          "alt": "img: labyrynth",
+          "title": "Проектирование сада",
+          "subtitle": "Необходимые исследования для&nbsp;реализации проекта"
+        },
+        {
+          "img": "img/imgWhite-step.jpg",
+          "alt": "img: bicycle",
+          "title": "Общее благоустройство",
+          "subtitle": "Все необходимое для&nbsp;здоровья и&nbsp;хорошего вида вашего сада"
+        },
+        {
+          "img": "img/imgLantern.jpg",
+          "alt": "",
+          "title": "Освещение участка",
+          "subtitle": "Организация системы освещения в&nbsp;соответствии со&nbsp;стилем сада"
+        },
+        {
+          "img": "img/imgGreen.jpg",
+          "alt": "",
+          "title": "Озеленение участка",
+          "subtitle": "Важный элемент декорации и&nbsp;заключительная часть работ"
+        },
+        {
+          "img": "img/imgPathway.jpg",
+          "alt": "",
+          "title": "Мощение дорожек",
+          "subtitle": "Определение нужного типа дорожки с&nbsp;учетом ее функции"
+        },
+        {
+          "img": "img/imgFountain.jpg",
+          "alt": "img: fountain",
+          "title": "Водоемы и &nbsp;фонтаны",
+          "subtitle": "Подбор лучшего места и&nbsp;формы в&nbsp;подходящем стиле"
+        },
+        {
+          "img": "img/imgGarden.jpg",
+          "alt": "img: labyrynth",
+          "title": "Проектирование сада",
+          "subtitle": "Необходимые исследования для&nbsp;реализации проекта"
+        },
+        {
+          "img": "img/imgWhite-step.jpg",
+          "alt": "img: bicycle",
+          "title": "Общее благоустройство",
+          "subtitle": "Все необходимое для&nbsp;здоровья и&nbsp;хорошего вида вашего сада"
+        }
+      ]
+    },
+    {
+      "reviews": [
+        {
+          "img": {
+            "src": "img/imgLakeGeneva.jpg",
+            "alt": "Geneva style"
+          },
+          "review": {
+            "img": {
+              "src": "img/imgAvatar1.jpg",
+              "alt": "avatar picture"
+            },
+            "title": "Людмила Юрьева",
+            "link": "vvvkkk.Ludmila81.com",
+            "content": "Отличная работа! У нас участок сложной формы. Ребята спланировали настолько все&nbsp;интересно и&nbsp;удобно, что&nbsp;теперь мне очень нравится наш участок, он стал уникальным. Команда Green Garden учла все&nbsp;наши хотелки, предложили несколько вариантов, сделали визуализацию! Мы ни&nbsp;чуть не&nbsp;пожалели, что&nbsp;обратились именно к&nbsp;ним."
+          }
+        },
+        {
+          "img": {
+            "src": "img/imgButchart.jpg",
+            "alt": "Bushes in the garden"
+          },
+          "review": {
+            "img": {
+              "src": "img/imgAvatar2.jpg",
+              "alt": "avatar picture"
+            },
+            "title": "Сергей Литвинов",
+            "link": "vvvkkk.Litvinov87.com",
+            "content": "Давно хотел оставить свой отзыв о&nbsp;ланшафтном дизайне, который я заказывал в&nbsp;этой фирме.В&nbsp;первую очередь меня поразила быстрота и&nbsp;оперативность работы. Я не&nbsp;совсем понимал, то&nbsp;именно я хотел, но дизайнеры GreenGarden предложили много разных вариантов,. Я даже и&nbsp;не знал, что&nbsp; такое можно сделать с&nbsp;моим участком. Обязательно буду советовать вас своим знакомым, потому что&nbsp;остался полностью доволен."
+          }
+        },
+        {
+          "img": {
+            "src": "img/pexels-alla-sergeeva-9481391.jpg",
+            "alt": "alley"
+          },
+          "review": {
+            "img": {
+              "src": "img/imgAvatar3.jpg",
+              "alt": "avatar picture"
+            },
+            "title": "Алина Андреева",
+            "link": "vvvkkk.Alina_lina98.com",
+            "content": "Спасибо за&nbsp;работу грамотных специалистов! Обратились в&nbsp;эту&nbsp;студию по&nbsp;советам друзей.Проделанный труд действительно стоит своих денег, замечу, что&nbsp;можно подобрать проект под&nbsp;свой бюджет. Теперь у&nbsp;нас ухоженный, красивый сад, в&nbsp;котором я&nbsp;и&nbsp;муж любиим проводить достаточно времени."
+          }
+        },
+        {
+          "img": {
+            "src": "img/imgLakeGeneva.jpg",
+            "alt": "Geneva style"
+          },
+          "review": {
+            "img": {
+              "src": "img/imgAvatar1.jpg",
+              "alt": "avatar picture"
+            },
+            "title": "Людмила Юрьева",
+            "link": "vvvkkk.Ludmila81.com",
+            "content": "Отличная работа! У нас участок сложной формы. Ребята спланировали настолько все&nbsp;интересно и&nbsp;удобно, что&nbsp;теперь мне очень нравится наш участок, он стал уникальным. Команда Green Garden учла все&nbsp;наши хотелки, предложили несколько вариантов, сделали визуализацию! Мы ни&nbsp;чуть не&nbsp;пожалели, что&nbsp;обратились именно к&nbsp;ним."
+          }
+        },
+        {
+          "img": {
+            "src": "img/imgButchart.jpg",
+            "alt": "Bushes in the garden"
+          },
+          "review": {
+            "img": {
+              "src": "img/imgAvatar2.jpg",
+              "alt": "avatar picture"
+            },
+            "title": "Сергей Литвинов",
+            "link": "vvvkkk.Litvinov87.com",
+            "content": "Давно хотел оставить свой отзыв о&nbsp;ланшафтном дизайне, который я заказывал в&nbsp;этой фирме.В&nbsp;первую очередь меня поразила быстрота и&nbsp;оперативность работы. Я не&nbsp;совсем понимал, то&nbsp;именно я хотел, но дизайнеры GreenGarden предложили много разных вариантов,. Я даже и&nbsp;не знал, что&nbsp; такое можно сделать с&nbsp;моим участком. Обязательно буду советовать вас своим знакомым, потому что&nbsp;остался полностью доволен."
+          }
+        },
+        {
+          "img": {
+            "src": "img/pexels-alla-sergeeva-9481391.jpg",
+            "alt": "alley"
+          },
+          "review": {
+            "img": {
+              "src": "img/imgAvatar3.jpg",
+              "alt": "avatar picture"
+            },
+            "title": "Алина Андреева",
+            "link": "vvvkkk.Alina_lina98.com",
+            "content": "Спасибо за&nbsp;работу грамотных специалистов! Обратились в&nbsp;эту&nbsp;студию по&nbsp;советам друзей.Проделанный труд действительно стоит своих денег, замечу, что&nbsp;можно подобрать проект под&nbsp;свой бюджет. Теперь у&nbsp;нас ухоженный, красивый сад, в&nbsp;котором я&nbsp;и&nbsp;муж любиим проводить достаточно времени."
+          }
+        },
+        {
+          "img": {
+            "src": "img/imgLakeGeneva.jpg",
+            "alt": "Geneva style"
+          },
+          "review": {
+            "img": {
+              "src": "img/imgAvatar1.jpg",
+              "alt": "avatar picture"
+            },
+            "title": "Людмила Юрьева",
+            "link": "vvvkkk.Ludmila81.com",
+            "content": "Отличная работа! У нас участок сложной формы. Ребята спланировали настолько все&nbsp;интересно и&nbsp;удобно, что&nbsp;теперь мне очень нравится наш участок, он стал уникальным. Команда Green Garden учла все&nbsp;наши хотелки, предложили несколько вариантов, сделали визуализацию! Мы ни&nbsp;чуть не&nbsp;пожалели, что&nbsp;обратились именно к&nbsp;ним."
+          }
+        }
+      ]
+    }
+  ]
+}
