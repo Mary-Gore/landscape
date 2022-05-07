@@ -11,15 +11,6 @@ module.exports = {
     filename: 'bundle.[contenthash].js',
     path: path.resolve(__dirname, 'build')
   },
-   build: {
-    index: path.resolve(__dirname, '../build/index.html'),
-    assetsRoot: path.resolve(__dirname, '../build'),
-    assetsSubDirectory: 'static',
-    assetsPublicPath: './',
-    productionSourceMap: false, 
-    devtool: '#source-map',
-    productionGzip: false,
-},
   mode: 'production',
   module: {
     rules: [
@@ -28,9 +19,9 @@ module.exports = {
         use: {
           loader: 'babel-loader',
           options: {
-            presets: ['@babel/env']
-          }
-        },
+            presets: ['@babel/env'],
+            }
+            },
         exclude: /node_modules/
       }
     ]
