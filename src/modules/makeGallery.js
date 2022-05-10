@@ -69,8 +69,8 @@ const makeGallery = () => {
           wrapperBigImg.classList.add('first-third');
           wrapper.append(wrapperBigImg);
           img = document.createElement('img');
-          img.src = `../../db/${images[i].src}`;
-          img.alt = `../../db/${images[i].alt}`;
+          img.src = `../.././db/${images[i].src}`;
+          img.alt = `../.././db/${images[i].alt}`;
           wrapperBigImg.append(img);
           break;
         case 1:
@@ -83,8 +83,8 @@ const makeGallery = () => {
           wrapperImg.classList.add('first-third');
           wrapperSmallGallery.append(wrapperImg);
           img = document.createElement('img');
-          img.src = `../../db/${images[i].src}`;
-          img.alt = `../../db/${images[i].alt}`;
+          img.src = `../.././db/${images[i].src}`;
+          img.alt = `../.././db/${images[i].alt}`;
           wrapperImg.append(img);
           break;
         case 2:
@@ -94,8 +94,8 @@ const makeGallery = () => {
           wrapperImg.classList.add('first-third');
           wrapperSmallGallery.append(wrapperImg);
           img = document.createElement('img');
-          img.src = `../../db/${images[i].src}`;
-          img.alt = `../../db/${images[i].alt}`;
+          img.src = `../.././db/${images[i].src}`;
+          img.alt = `../.././db/${images[i].alt}`;
           wrapperImg.append(img);
           break;
         case 3: case 9: case 12:
@@ -107,8 +107,8 @@ const makeGallery = () => {
           wrapperImg.classList.add('gallery-elem');
           horizontal.append(wrapperImg);
           img = document.createElement('img');
-          img.src = `../../db/${images[i].src}`;
-          img.alt = `../../db/${images[i].alt}`;
+          img.src = `../.././db/${images[i].src}`;
+          img.alt = `../.././db/${images[i].alt}`;
           wrapperImg.append(img);
           break;
         case 4: case 5: case 10: case 11: case 13: case 14:
@@ -117,8 +117,8 @@ const makeGallery = () => {
           wrapperImg.classList.add('gallery-elem');
           horizontal.append(wrapperImg);
           img = document.createElement('img');
-          img.src = `../../db/${images[i].src}`;
-          img.alt = `../../db/${images[i].alt}`;
+          img.src = `../.././db/${images[i].src}`;
+          img.alt = `../.././db/${images[i].alt}`;
           wrapperImg.append(img);
           break;
         case 6:
@@ -133,8 +133,8 @@ const makeGallery = () => {
           wrapperImg.classList.add('gallery-elem');
           wrapperSmallGallery.append(wrapperImg);
           img = document.createElement('img');
-          img.src = `../../db/${images[i].src}`;
-          img.alt = `../../db/${images[i].alt}`;
+          img.src = `../.././db/${images[i].src}`;
+          img.alt = `../.././db/${images[i].alt}`;
           wrapperImg.append(img);
           break;
         case 7:
@@ -143,8 +143,8 @@ const makeGallery = () => {
           wrapperImg.classList.add('gallery-elem');
           wrapperSmallGallery.append(wrapperImg);
           img = document.createElement('img');
-          img.src = `../../db/${images[i].src}`;
-          img.alt = `../../db/${images[i].alt}`;
+          img.src = `../.././db/${images[i].src}`;
+          img.alt = `../.././db/${images[i].alt}`;
           wrapperImg.append(img);
           break;
         case 8:
@@ -154,8 +154,8 @@ const makeGallery = () => {
           wrapperBigImg.classList.add('gallery-elem');
           wrapper.append(wrapperBigImg);
           img = document.createElement('img');
-          img.src = `../../db/${images[i].src}`;
-          img.alt = `../../db/${images[i].alt}`;
+          img.src = `../.././db/${images[i].src}`;
+          img.alt = `../.././db/${images[i].alt}`;
           wrapperBigImg.append(img);
         }
       }
@@ -165,7 +165,7 @@ const makeGallery = () => {
         const slickImageDiv = document.createElement('div');
         slickImageDiv.classList.add('mob-gallery-item');
         const image = document.createElement('img');
-        image.src = `../../db/${images[i].src}`;
+        image.src = `../.././db/${images[i].src}`;
         slickImageDiv.append(image);
         gallery.append(slickImageDiv);
       }
