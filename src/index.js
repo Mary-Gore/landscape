@@ -1,3 +1,7 @@
+import "./css/style.css";
+import $ from 'jquery';
+import "../plugins/jQuery/slider.js";
+import "../plugins/jQuery/slick.min.js";
 import toggleMenu from "./modules/toggleMenu";
 import smoothScroll from "./modules/smoothScroll";
 import makeGallery from "./modules/makeGallery";

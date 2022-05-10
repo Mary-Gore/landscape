@@ -1,7 +1,8 @@
 const path = require('path'),
 HTMLWebpackPlugin = require('html-webpack-plugin'),
-webpack = require('webpack'),
-{CleanWebpackPlugin} = require('clean-webpack-plugin');
+webpack = require('webpack');
+
+const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 
 module.exports = {
   entry: {
@@ -9,7 +10,10 @@ module.exports = {
   },
   output: {
     filename: 'bundle.[contenthash].js',
-    path: path.resolve(__dirname, 'build')
+    path: path.resolve(__dirname, 'build'),
+    environment: {
+      arrowFunction: false
+    }
   },
   mode: 'production',
   module: {
@@ -23,8 +27,12 @@ module.exports = {
             }
             },
         exclude: /node_modules/
+      },
+      {
+         test: /\.css$/,
+         use: ['style-loader', 'css-loader']
       }
-     ]
+  ]
   },
   context: path.resolve(__dirname, 'src'),
   plugins: [
