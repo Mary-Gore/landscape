@@ -37,7 +37,8 @@ module.exports = {
         use: {
           loader: 'file-loader',
           options: {
-            outputPath: './img/'
+            outputPath: './img/',
+            name:'[name].[ext]', 
           }
         }
       },
@@ -46,7 +47,8 @@ module.exports = {
         use: {
           loader: 'file-loader',
           options: {
-            outputPath: './icons/'
+            outputPath: './icons/',
+            name:'[name].[ext]', 
           }
         }
       }
