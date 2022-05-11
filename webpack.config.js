@@ -31,7 +31,26 @@ module.exports = {
       {
          test: /\.css$/,
          use: ['style-loader', 'css-loader']
+      },
+      {
+        test: /\.(jpg|png|gif)$/,
+        use: {
+          loader: 'file-loader',
+          options: {
+            outputPath: './img/'
+          }
+        }
+      },
+      {
+        test: /\.svg$/,
+        use: {
+          loader: 'file-loader',
+          options: {
+            outputPath: './icons/'
+          }
+        }
       }
+      
   ]
   },
   context: path.resolve(__dirname, 'src'),

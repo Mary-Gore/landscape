@@ -56,12 +56,12 @@ const showReviews = () => {
       reviewsContent.classList.add('reviews-content');
       reviewsContent.innerHTML = `
         <div class="bg-div"></div>
-        <img class="reviews-img" src="./db/${item.img.src}" alt="${item.img.alt}">
+        <img class="reviews-img" src="./${item.img.src}" alt="${item.img.alt}">
         <div class="review-wrapper">
           <div class="content-wrapper">
             <div class="header-wrapper">
               <div class="avatar-wrapper">
-                <img src="./db/${item.review.img.src}" alt="${item.review.img.alt}">
+                <img src="./${item.review.img.src}" alt="${item.review.img.alt}">
               </div>
               <p>${item.review.title}</p>
               <a href="${item.review.link}">

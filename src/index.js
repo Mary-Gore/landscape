@@ -1,3 +1,5 @@
+require.context("./img/", true, /\.(png|jpg|gif)$/);
+require.context("./icons/", true, /\.svg$/);
 import "./css/style.css";
 import $ from 'jquery';
 import "../plugins/jQuery/slider.js";
