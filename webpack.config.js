@@ -13,7 +13,7 @@ module.exports = {
     path: path.resolve(__dirname, 'docs'),
     environment: {
       arrowFunction: false
-    }
+    },
   },
   mode: 'production',
   module: {
