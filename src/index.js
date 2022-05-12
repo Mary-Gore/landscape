@@ -10,7 +10,6 @@ import makeGallery from "./modules/makeGallery";
 import showCards from "./modules/showCards";
 import validation from "./modules/validation";
 import showReviews from "./modules/showReviews";
-import "../plugins/yandex maps/map.js";
 
 toggleMenu();
 smoothScroll();
