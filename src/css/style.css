@@ -92,10 +92,10 @@ a {
 }
 
 .main {
- background: #021402;
-  background: linear-gradient(96.96deg, rgba(0, 0, 0, 0.68) 4.69%,
-      rgba(0, 0, 0, 0) 99.28%), url("../img/imgBG.jpg") no-repeat;
-  color: #fff;
+ background: #021402; 
+ background: linear-gradient(96.96deg, rgba(0, 0, 0, 0.68) 4.69%,rgba(0, 0, 0, 0) 99.28%), 
+ url("../img/imgBG.jpg") no-repeat;
+ color: #fff;
 }
 
 .main .header-wrapper {
