@@ -34,6 +34,7 @@ module.exports = {
       },
       {
         test: /\.(jpg|png|gif)$/,
+        type: 'asset/resource',
         use: {
           loader: 'file-loader',
           options: {
@@ -44,6 +45,7 @@ module.exports = {
       },
       {
         test: /\.svg$/,
+        type: 'asset/resource',
         use: {
           loader: 'file-loader',
           options: {
