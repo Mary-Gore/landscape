@@ -11,7 +11,6 @@ module.exports = {
   output: {
     filename: 'bundle.[contenthash].js',
     path: path.resolve(__dirname, 'docs'),
-    publicPath: 'https://mary-gore.github.io/landscape',
     environment: {
       arrowFunction: false
     }
