@@ -1,6 +1,7 @@
 const path = require('path'),
 HTMLWebpackPlugin = require('html-webpack-plugin'),
-webpack = require('webpack');
+webpack = require('webpack'),
+CopyWebpackPlugin = require('copy-webpack-plugin');
 
 const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 
@@ -31,28 +32,7 @@ module.exports = {
       {
          test: /\.css$/,
          use: ['style-loader', 'css-loader']
-      },
-      {
-        test: /\.(jpg|png|gif)$/,
-        use: {
-          loader: 'file-loader',
-          options: {
-            outputPath: './img/',
-            name:'[name].[ext]', 
-          }
-        }
-      },
-      {
-        test: /\.svg$/,
-        use: {
-          loader: 'file-loader',
-          options: {
-            outputPath: './icons/',
-            name:'[name].[ext]', 
-          }
-        }
       }
-      
   ]
   },
   context: path.resolve(__dirname, 'src'),
@@ -65,6 +45,13 @@ module.exports = {
      new HTMLWebpackPlugin({
       template: './index.html'
     }),
-    new CleanWebpackPlugin()
+    new CleanWebpackPlugin(),
+    new CopyWebpackPlugin({
+      patterns: [
+        { from: "./fonts", to: "../docs/fonts" },
+        { from: "./img", to: "../docs/img" },
+        { from: "./icons", to: "../docs/icons" }
+      ],
+    }),
   ]
 }
