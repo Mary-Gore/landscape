@@ -31,6 +31,22 @@ module.exports = {
         exclude: /node_modules/
       },
       {
+        test: /\.(png|jpe?g|gif)$/i,
+        loader: 'file-loader',
+        options: {
+          outputPath: '../docs/img',
+          name: '[name].[ext]',
+        },
+      },
+        {
+        test: /\.svg$/i,
+        loader: 'file-loader',
+        options: {
+          outputPath: '../docs/icons',
+          name: '[name].[ext]',
+        },
+      },
+      {
          test: /\.css$/,
          use: [MiniCssExtractPlugin.loader, "css-loader"]
       }
@@ -47,14 +63,8 @@ module.exports = {
       template: './index.html'
     }),
     new CleanWebpackPlugin(),
-    new CopyWebpackPlugin({
-      patterns: [
-        { from: "./fonts", to: "../docs/fonts" },
-        { from: "./img", to: "../docs/img" },
-        { from: "./icons", to: "../docs/icons" }
-      ],
-    }),
-      new MiniCssExtractPlugin({
+
+    new MiniCssExtractPlugin({
           filename: "../docs/css/bundle.css",
       })
     ]
