@@ -34,17 +34,22 @@ module.exports = {
         test: /\.(png|jpe?g|gif)$/i,
         loader: 'file-loader',
         options: {
-          outputPath: '../docs/img',
-          name: '[name].[ext]',
+          outputPath: 'img',
         },
       },
         {
         test: /\.svg$/i,
         loader: 'file-loader',
         options: {
-          outputPath: '../docs/icons',
-          name: '[name].[ext]',
+          outputPath: 'icons',
         },
+      },
+      {
+        test: /\.(woff2|woff|ttf)$/i,
+        loader: 'file-loader',
+        options: {
+          outputPath: 'fonts',
+        }
       },
       {
          test: /\.css$/,
@@ -63,9 +68,8 @@ module.exports = {
       template: './index.html'
     }),
     new CleanWebpackPlugin(),
-
     new MiniCssExtractPlugin({
-          filename: "../docs/css/bundle.css",
-      })
+        filename: "../docs/css/bundle.css",
+    })
     ]
 }
