@@ -1,18 +1,13 @@
 const path = require('path'),
-HTMLWebpackPlugin = require('html-webpack-plugin'),
-webpack = require('webpack'),
-CopyWebpackPlugin = require('copy-webpack-plugin'),
-MiniCssExtractPlugin = require("mini-css-extract-plugin");
-
-const {CleanWebpackPlugin} = require('clean-webpack-plugin');
+webpack = require('webpack');
 
 module.exports = {
   entry: {
     main: './index.js'
   },
   output: {
-    filename: 'bundle.[contenthash].js',
-    path: path.resolve(__dirname, 'docs'),
+    filename: 'bundle.js',
+    path: path.resolve(__dirname, 'bundle'),
     environment: {
       arrowFunction: false
     },
@@ -30,31 +25,7 @@ module.exports = {
             },
         exclude: /node_modules/
       },
-      {
-        test: /\.(png|jpe?g|gif)$/i,
-        loader: 'file-loader',
-        options: {
-          outputPath: 'img',
-        },
-      },
-        {
-        test: /\.svg$/i,
-        loader: 'file-loader',
-        options: {
-          outputPath: 'icons',
-        },
-      },
-      {
-        test: /\.(woff2|woff|ttf)$/i,
-        loader: 'file-loader',
-        options: {
-          outputPath: 'fonts',
-        }
-      },
-      {
-         test: /\.css$/,
-         use: [MiniCssExtractPlugin.loader, "css-loader"]
-      }
+   
   ]
   },
   context: path.resolve(__dirname, 'src'),
@@ -63,13 +34,6 @@ module.exports = {
       $: 'jquery',
       jQuery: 'jquery',
       'window.jQuery': 'jquery'
-    }),
-     new HTMLWebpackPlugin({
-      template: './index.html'
-    }),
-    new CleanWebpackPlugin(),
-    new MiniCssExtractPlugin({
-        filename: "../docs/css/bundle.css",
     })
-    ]
+     ]
 }
