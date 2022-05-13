@@ -1950,7 +1950,7 @@ a {
 
   .main .icon-wrapper {
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
   }
 
   .main .advantages-icon {
