@@ -107,8 +107,8 @@ const makeGallery = () => {
           wrapperImg.classList.add('gallery-elem');
           horizontal.append(wrapperImg);
           img = document.createElement('img');
-          img.src = `../../${images[i].src}`;
-          img.alt = `../../${images[i].alt}`;
+          img.src = `./${images[i].src}`;
+          img.alt = `./${images[i].alt}`;
           wrapperImg.append(img);
           break;
         case 4: case 5: case 10: case 11: case 13: case 14:
@@ -117,8 +117,8 @@ const makeGallery = () => {
           wrapperImg.classList.add('gallery-elem');
           horizontal.append(wrapperImg);
           img = document.createElement('img');
-          img.src = `../../${images[i].src}`;
-          img.alt = `../../${images[i].alt}`;
+          img.src = `./${images[i].src}`;
+          img.alt = `./${images[i].alt}`;
           wrapperImg.append(img);
           break;
         case 6:
@@ -133,8 +133,8 @@ const makeGallery = () => {
           wrapperImg.classList.add('gallery-elem');
           wrapperSmallGallery.append(wrapperImg);
           img = document.createElement('img');
-          img.src = `../..//${images[i].src}`;
-          img.alt = `../..//${images[i].alt}`;
+          img.src = `./${images[i].src}`;
+          img.alt = `./${images[i].alt}`;
           wrapperImg.append(img);
           break;
         case 7:
@@ -143,8 +143,8 @@ const makeGallery = () => {
           wrapperImg.classList.add('gallery-elem');
           wrapperSmallGallery.append(wrapperImg);
           img = document.createElement('img');
-          img.src = `../../${images[i].src}`;
-          img.alt = `../../${images[i].alt}`;
+          img.src = `./${images[i].src}`;
+          img.alt = `./${images[i].alt}`;
           wrapperImg.append(img);
           break;
         case 8:
@@ -154,8 +154,8 @@ const makeGallery = () => {
           wrapperBigImg.classList.add('gallery-elem');
           wrapper.append(wrapperBigImg);
           img = document.createElement('img');
-          img.src = `../../${images[i].src}`;
-          img.alt = `../../${images[i].alt}`;
+          img.src = `./${images[i].src}`;
+          img.alt = `./${images[i].alt}`;
           wrapperBigImg.append(img);
         }
       }
@@ -165,7 +165,7 @@ const makeGallery = () => {
         const slickImageDiv = document.createElement('div');
         slickImageDiv.classList.add('mob-gallery-item');
         const image = document.createElement('img');
-        image.src = `../../${images[i].src}`;
+        image.src = `./${images[i].src}`;
         slickImageDiv.append(image);
         gallery.append(slickImageDiv);
       }
