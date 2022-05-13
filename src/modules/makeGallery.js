@@ -69,8 +69,8 @@ const makeGallery = () => {
           wrapperBigImg.classList.add('first-third');
           wrapper.append(wrapperBigImg);
           img = document.createElement('img');
-          img.src = `../../${images[i].src}`;
-          img.alt = `../../${images[i].alt}`;
+          img.src = `./${images[i].src}`;
+          img.alt = `./${images[i].alt}`;
           wrapperBigImg.append(img);
           break;
         case 1:
@@ -83,8 +83,8 @@ const makeGallery = () => {
           wrapperImg.classList.add('first-third');
           wrapperSmallGallery.append(wrapperImg);
           img = document.createElement('img');
-          img.src = `../../${images[i].src}`;
-          img.alt = `../../${images[i].alt}`;
+          img.src = `./${images[i].src}`;
+          img.alt = `./${images[i].alt}`;
           wrapperImg.append(img);
           break;
         case 2:
@@ -94,8 +94,8 @@ const makeGallery = () => {
           wrapperImg.classList.add('first-third');
           wrapperSmallGallery.append(wrapperImg);
           img = document.createElement('img');
-          img.src = `../../${images[i].src}`;
-          img.alt = `../../${images[i].alt}`;
+          img.src = `./${images[i].src}`;
+          img.alt = `./${images[i].alt}`;
           wrapperImg.append(img);
           break;
         case 3: case 9: case 12:
