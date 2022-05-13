@@ -1,4 +1,4 @@
-import "./css/style.css";
+import './css/style.css';
 import "./plugins/jQuery/slider.js";
 import "./plugins/jQuery/slick.min.js";
 import "./plugins/yandex maps/map.js";
