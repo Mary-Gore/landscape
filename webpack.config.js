@@ -34,7 +34,7 @@ module.exports = {
         test: /\.(png|jpe?g|gif)$/i,
         loader: 'file-loader',
         options: {
-          outputPath: '../docs/img',
+          outputPath: './img',
           name: '[name].[ext]',
         },
       },
@@ -42,7 +42,7 @@ module.exports = {
         test: /\.svg$/i,
         loader: 'file-loader',
         options: {
-          outputPath: '../docs/icons',
+          outputPath: './icons',
           name: '[name].[ext]',
         },
       },
